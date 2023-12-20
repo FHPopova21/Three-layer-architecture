@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Login</title> 
+</head>
+<body>
+  <div class="login-container">
+    <form id="login-form" onsubmit="validateForm(event)">
+      <label for="username">Username : </label>
+      <input type="text" id="username" name="username" required><br><br>
+      
+      <label for="password">Password :</label>
+      <input type="password" id="password" name="password" required><br><br>
+      
+      <input type="submit" value="Login">
+    </form>
+    <p id="error-message" class="error-message"></p>
+  </div>
+
+  <script src="javas.js"></script>
+</body>
+</html>
